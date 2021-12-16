@@ -7,6 +7,8 @@ import android.widget.ListView;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -24,7 +26,7 @@ ListView lista;
         setContentView(R.layout.activity_main);
         lista=findViewById(R.id.listapkm);
         //preejecucion
-        System.out.println("holamundo");
+        System.out.println("Hola mundoss");
         new Thread(new Runnable() {
             @Override
             public void run() {
