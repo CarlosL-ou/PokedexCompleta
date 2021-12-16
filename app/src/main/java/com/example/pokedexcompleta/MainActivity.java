@@ -23,9 +23,10 @@ ListView lista;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+
         lista=findViewById(R.id.listapkm);
         //preejecucion
+        System.out.println("Hola mundoss");
         new Thread(new Runnable() {
             @Override
             public void run() {
